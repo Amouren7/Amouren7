@@ -1,18 +1,18 @@
-# AI 应用工程学习路线
+### 姜高辉 · Jiang Gaohui
 
-以真实项目为验收单位，整理从基础到交付的学习资料。
+**AI 应用开发 / Agent 工程** · 深圳
+[个人博客](https://amouren7.github.io) · 3384989556@qq.com
 
-## 入口
+把 LLM 做成**能跑、能验收**的东西：Agent 编排 · RAG 检索 · 评测与回归 · 云端部署。
 
-- [完整路线仓库](https://github.com/Amouren7/ai-application-engineering-roadmap)：包含总览和 00–16 全部章节。
-- [飞书知识库原版](https://zcnfzozvzo07.feishu.cn/wiki/WOrswqf3AiKxCfkGXAScw0qgn6e)：协作与持续更新版本。
+| 项目 | 一句话 | 技术栈 |
+|---|---|---|
+| **[Amou RAG Agent](https://github.com/Amouren7/Amou_rag_project)** | 中文 Agentic RAG：pgvector + pg_trgm 混合检索、RRF 融合、结构化引用、Recall@K / MRR 离线评测 | FastAPI · PydanticAI · pgvector · Streamlit |
+| **[JobMate AI 职伴](https://github.com/Amouren7/JobMate-AI)** | AI 求职助手：简历评分 / JD 匹配 / 面试题预测（智联招聘 AI 创新大赛参赛作品） | TypeScript · 多模型接入 |
+| **[PromptForge](https://github.com/Amouren7/PromptForge)** | 提示词优化工具：多模型适配 + 流式输出 | TypeScript |
+| **[个人技术博客](https://amouren7.github.io)** | AI 应用工程与 Agent 交付实践 | Astro · React · Pagefind |
 
-## 路线结构
+**技术栈**
+`Python` `Java` `TypeScript` `FastAPI` `PydanticAI` `PostgreSQL / pgvector` `Playwright` `Docker` `Dify` `MCP` `n8n`
 
-`L0` AI 工具与 Coding Agent → `L1` Python / CLI / HTTP / JSON / Git → `L2` LLM Application → `L3` Tool Calling / Workflow → `L4` RAG → `L5` Agent Engineering → `L6` Skill / MCP → `L7` 生产级工程 → `L8` 真实项目与作品集
-
-## 项目结构
-
-- `P1` 文档分析 / 论文阅读助手
-- `P2` 企业知识库 / 科研知识助手
-- `P3` 面向具体行业的完整 AI Agent
+**在做什么**：在一家印刷包装企业独立负责 AI 应用落地 —— 销售对话助手（已部署阿里云 ECS）、客户信息录入自动化（Playwright + 线上 CRM 回填，10 个字段回读验证）、成本单审核工作流（Dify + MCP）。
